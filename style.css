@@ -1,0 +1,36 @@
+body
+{
+    font: 'Railway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.5);
+    top: 15%;
+    background: linear-gradient(to right, red, yellow);      
+}
+
+h1
+{
+	font: 600 3.5em 'Raleway', sans-serif;
+	color: rgba(0,0,0,0.5);
+	text-align: center;
+	letter-spacing: 0.5em;
+	width: 100%;
+}
+@media only screen and (max-width: 700px){
+	h1
+	{
+		font: bold 400 1.5em 'Raleway', sans-serif;
+		letter-spacing: 0em;
+		text-align: center;
+	}
+}
+h3
+{
+	font: 900 1em 'Railway' , sans-serif;
+	color: rgba(0,0,0,0.5);
+	text-align: center;
+	text-transform: none;
+	letter-spacing: 0.01em;
+
+
+}
